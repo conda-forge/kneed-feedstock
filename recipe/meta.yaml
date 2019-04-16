@@ -1,5 +1,5 @@
 {% set name = "kneed" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b16643a339a5301942ca69fa0890d3bf86d610bce9fb39db4763fec9730d0d8
+  sha256: 0e6d38e218864f802de9377a688555ba42d2064666b432dba69fd5e38cb6d047
 
 build:
   noarch: python
