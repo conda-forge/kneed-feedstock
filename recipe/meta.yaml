@@ -23,6 +23,7 @@ requirements:
     - python
     - numpy
     - scipy
+    - scikit-learn
 test:
   imports:
     - kneed
