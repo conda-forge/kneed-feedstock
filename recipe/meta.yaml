@@ -1,5 +1,5 @@
 {% set name = "kneed" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 78c41348f609608f8f78e2fd0d8a8f8fb98be798bf8ee9db926edc1776bf5fea
+  sha256: 3d3956c9550f5974b83cb95ade8629f048e9752c3948966fff8bd884758cd414
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,8 +32,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Knee point detection using Python'
+  summary: Knee point detection using Python
 
 extra:
   recipe-maintainers:
-    - arvkevi 
+    - arvkevi
