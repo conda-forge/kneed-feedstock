@@ -5,7 +5,7 @@ Home: http://github.com/arvkevi/kneed
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Knee point detection using Python
 
