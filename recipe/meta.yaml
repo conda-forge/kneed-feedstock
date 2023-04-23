@@ -16,14 +16,13 @@ build:
 
 requirements:
   host:
-    - python
-    - setuptools
+    - python >=3.6
+    - hatchling
     - pip
   run:
-    - python
-    - numpy
-    - scipy
-    - scikit-learn
+    - python >=3.6
+    - numpy >=1.14.2
+    - scipy >=1.0.0
 test:
   imports:
     - kneed
