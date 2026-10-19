@@ -1,13 +1,13 @@
 {% set name = "kneed" %}
-{% set version = "0.8.6" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 65b22727c623661701f15edf057f2e6c73e2b1ad4e68cd9ca4291675c318b5ef
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 61ace9fa33332d8da50107d1f8d713476a5b4606d15798a4806eef18c80e2a7d
 
 build:
   noarch: python
